@@ -20,6 +20,6 @@ app.get( '/', function( req, res ){
 
 app.get('/bananas', function (req, res) {
   console.log('get bananas');
-
+res.send('banana cream pie')
 });//END get bananas
 
