@@ -18,3 +18,8 @@ app.get( '/', function( req, res ){
   res.sendFile( path.resolve( 'views/index.html' ) );
 }); // end base url
 
+app.get('/bananas', function (req, res) {
+  console.log('get bananas');
+
+});//END get bananas
+
